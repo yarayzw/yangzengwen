@@ -1,0 +1,1546 @@
+.site-nav-wrapper {
+    margin: 0
+}
+
+.pay-header {
+    height: 74px;
+    background-color: #f0f4f7;
+    border-bottom: 1px solid #d5dceb
+}
+
+.header-inner, .pay-content {
+    margin: 0 auto;
+    width: 980px
+}
+
+.pay-logo {
+    float: left;
+    padding-right: 220px;
+    margin-top: 15px
+}
+
+.pay-nav {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.paynav-title {
+    float: left;
+    line-height: 44px;
+    padding-right: 20px;
+    *padding-right: 15px
+}
+
+.pay-nav .selected a, .pay-nav .selected a:hover {
+    color: #333;
+    cursor: auto;
+    text-decoration: none
+}
+
+.nav-dot {
+    margin-right: 6px;
+    font-size: 20px;
+    color: #f0f4f7
+}
+
+.pay-nav li.selected .nav-dot {
+    color: #333
+}
+
+.pay-con-main {
+    float: left;
+    width: 724px;
+    margin-bottom: 60px
+}
+
+.conmain-top {
+    margin-top: 20px;
+    width: 718px;
+    height: 146px;
+    border: 3px solid #d5dceb
+}
+
+.payer-card {
+    float: left;
+    padding: 14px 0 0 14px;
+    width: 170px
+}
+
+.conmain-top-img {
+    float: left;
+    padding: 4px 0 0 0
+}
+
+.payer-card-main {
+    margin-bottom: 10px
+}
+
+.payerpic {
+    float: left;
+    display: block;
+    padding-right: 4px
+}
+
+.payername, .payerdou {
+    overflow: hidden;
+    font-weight: bold;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.payername {
+    font-size: 14px;
+    height: 20px;
+    color: #005EAC;
+    padding-top: 10px
+}
+
+.payerdou {
+    padding-left: 20px;
+    margin-top: 4px;
+    background: url(http://a.xnimg.cn/xnapp/pay/img/pay_money_icon.gif) no-repeat;
+    color: #EB8828;
+    height: 16px
+}
+
+.pay-con-ad {
+    float: left;
+    padding-left: 14px
+}
+
+.my-purse, .my-record {
+    padding-left: 18px;
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png") no-repeat scroll -2px -4px transparent
+}
+
+.my-record {
+    background-position: -2px -28px;
+    margin-left: 4px
+}
+
+.cardmain-bottom {
+    margin-top: 12px
+}
+
+.cardmain-bottom a.recharge-btn {
+    display: block;
+    width: 148px;
+    height: 28px;
+    line-height: 26px;
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png") no-repeat scroll 0 -54px transparent;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 28px
+}
+
+.account-main .cardmain-bottom a.acc-search-button {
+    width: 44px;
+    height: 23px;
+    line-height: 23px
+}
+
+.account-main a.recharge-btn {
+    width: 92px;
+    background-position: -10px -54px;
+    border-radius: 3px;
+    border-left: 1px solid #0d4f87;
+    border-right: 1px solid #0d4f87;
+    border: none
+}
+
+.jun-network-box input.recharge-btn {
+    line-height: 16px
+}
+
+.pay-tabbox {
+    margin-top: 26px;
+    padding-bottom: 10px
+}
+
+.paybox-title {
+    font-size: 15px;
+    margin-bottom: 14px;
+    position: relative
+}
+
+a.more-payway {
+    font-weight: normal;
+    font-size: 13px;
+    position: absolute;
+    top: 0px;
+    right: 2px
+}
+
+.paybox-content {
+    padding-left: 26px;
+    width: 698px;
+    overflow: hidden
+}
+
+.paybox-item {
+    float: left;
+    width: 92px;
+    margin-right: 24px;
+    text-align: center
+}
+
+.paybox-item p {
+    margin-top: 10px
+}
+
+.paybox-item a {
+    display: block;
+    width: 64px;
+    height: 64px;
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/iconblock.png") no-repeat scroll 0 0 transparent;
+    margin: 0 auto
+}
+
+a.bank {
+    background-position: 0 0
+}
+
+a.alipay {
+    background-position: -64px 0
+}
+
+a.phoneCard {
+    background-position: -128px 0
+}
+
+a.jcard {
+    background-position: -192px 0
+}
+
+a.mopykt {
+    background-position: -256px 0
+}
+
+a.mycard {
+    background-position: -320px 0
+}
+
+a.paypal {
+    background-position: -384px 0
+}
+
+.paybox-item img {
+    border: 1px solid #adb6ca;
+    border-radius: 8px
+}
+
+a.vip-member {
+    background-position: 0 -64px
+}
+
+a.gift-member {
+    background-position: -64px -64px
+}
+
+a.phone-pay {
+    background-position: -128px -64px
+}
+
+a.cc-dept {
+    background-position: -192px -64px
+}
+
+a.lotto {
+    background-position: -256px -64px
+}
+
+a.game-card {
+    background-position: -320px -64px
+}
+
+.pay-adbox {
+    margin: 20px 0 20px 0
+}
+
+.ad-bottom {
+    margin: 10px 0 10px 0;
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png") no-repeat scroll 0 0 transparent;
+    padding-left: 20px
+}
+
+.ad-help {
+    background-position: -2px -86px
+}
+
+.ad-page {
+    background-position: -2px -112px
+}
+
+.ad-phone {
+    background-position: -2px -134px
+}
+
+.ad-email {
+    background-position: -2px -154px
+}
+
+.ad-service {
+    background-position: -2px -176px
+}
+
+.account-list {
+    float: left;
+    padding-top: 22px;
+    width: 160px
+}
+
+.account-list .payer-card {
+    padding: 0;
+    float: none;
+    border-bottom: 1px solid #e6edf4;
+    padding-bottom: 5px;
+    width: 150px
+}
+
+.payer-card .payer-card-link {
+    margin-bottom: 5px
+}
+
+.accountlist-main {
+    margin-top: 14px;
+    padding-bottom: 10px
+}
+
+.accountlist-title {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px
+}
+
+.account-main {
+    float: left;
+    width: 560px;
+    border-left: 1px solid #e6edf4;
+    padding-top: 22px;
+    min-height: 600px;
+    height: auto !important;
+    height: 600px
+}
+
+a.acclist-a {
+    display: block;
+    width: 160px;
+    height: 34px;
+    line-height: 34px;
+    color: #333;
+    font-size: 14px
+}
+
+.selected a.acclist-a, a.acclist-a:hover {
+    background-color: #d6ddec;
+    text-decoration: none;
+    font-weight: bold
+}
+
+a.acclist-a img, a.acclist-a i {
+    margin: 10px 10px
+}
+
+a.acclist-a i {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png") no-repeat -140px 0
+}
+
+.selected a.acclist-a i, a.acclist-a:hover i {
+    background-position: -140px -20px
+}
+
+.selected a.acclist-a i.unfold {
+    background-position: -166px -7px
+}
+
+.account-help {
+    border-top: 1px solid #e6edf4;
+    padding-top: 10px
+}
+
+.acchelp-text {
+    padding-left: 20px;
+    background: url("http://s.xnimg.cn/xnapp/pay/images/app-re.png") no-repeat scroll -4px -123px transparent
+}
+
+.paynum-item .tip {
+    color: #999;
+    margin-left: 5px
+}
+
+.paynum-item {
+    width: 220px;
+    margin-bottom: 6px
+}
+
+.inline .paynum-item {
+    width: 150px;
+    float: left;
+    display: inline-block
+}
+
+.live-main .paynum-item {
+    width: 94px
+}
+
+.paynum-itemlast {
+    width: 400px
+}
+
+.inline .paynum-itemlast {
+    width: 400px
+}
+
+.paynum-ps {
+    color: #aaa;
+    margin-left: 6px;
+    font-weight: normal
+}
+
+.accselect-title {
+    float: left;
+    width: 100px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    color: #999
+}
+
+.accselect-main {
+    float: left;
+    width: 394px;
+    padding-bottom: 5px;
+    padding-left: 6px
+}
+
+.account-info {
+    margin: 10px 0;
+    padding-left: 40px
+}
+
+em {
+    color: #E36B0F;
+    font-weight: bold;
+    margin: 0 0.2em
+}
+
+em.friend {
+    color: #0078D0
+}
+
+.account-first {
+    margin-bottom: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999
+}
+
+.account-first img {
+    margin-right: 10px
+}
+
+.accselect-info {
+    margin-bottom: 10px
+}
+
+.bank-logo {
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/bank_big.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 38px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 150px;
+    border: 1px solid #ddd
+}
+
+.bank-logo.current {
+    border: 1px solid #A0BEDC
+}
+
+.bank-item {
+    float: left;
+    margin: 0 18px 16px 0
+}
+
+.live-main .bank-item {
+    margin: 0 10px 16px 0
+}
+
+.e-bank-box .bank-item, .app-main .bank-item {
+    width: 178px
+}
+
+.bank-small-logo {
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/bank_small.png) no-repeat;
+    height: 18px;
+    _margin-top: 4px;
+    margin-right: 1px;
+    line-height: 999px;
+    overflow: hidden;
+    width: 18px;
+    position: relative;
+    vertical-align: -4px
+}
+
+.ICBC {
+    background-position: 2px 2px
+}
+
+.CCB {
+    background-position: 2px -29px
+}
+
+.COMM {
+    background-position: 2px -60px
+}
+
+.CMB {
+    background-position: 2px -92px
+}
+
+.ABC {
+    background-position: 2px -191px
+}
+
+.BOC {
+    background-position: 2px -227px
+}
+
+.CCIB {
+    background-position: 2px -128px
+}
+
+.SDBL {
+    background-position: 2px -162px
+}
+
+.SDB {
+    background-position: -108px -18px
+}
+
+.SPDB {
+    background-position: -54px -18px
+}
+
+.CMBC {
+    background-position: -90px -18px
+}
+
+.CITIC {
+    background-position: -126px 0
+}
+
+.CBHB {
+    background-position: -108px -54px;
+    width: 24px
+}
+
+.CIB {
+    background-position: 0 -18px
+}
+
+.CEB {
+    background-position: -90px 0;
+    width: 36px
+}
+
+.BOB {
+    background-position: -126px -18px
+}
+
+.GDB {
+    background-position: -72px -18px
+}
+
+.BJRCB {
+    background-position: -144px 0
+}
+
+.GZCB {
+    background-position: -90px -72px
+}
+
+.SRCB {
+    background-position: -72px -37px
+}
+
+.NJCB {
+    background-position: -108px -36px
+}
+
+.HXB {
+    background-position: -18px -54px
+}
+
+.PSBC {
+    background-position: -18px -18px
+}
+
+.SHB {
+    background-position: 0 -54px
+}
+
+.BEA {
+    background-position: -54px -54px
+}
+
+.PAB {
+    background-position: 0 -36px;
+    width: 27px
+}
+
+.NBCB {
+    background-position: -90px -36px
+}
+
+.HZB {
+    background-position: -36px -54px
+}
+
+.accselectbank-title {
+    padding-top: 12px
+}
+
+.account-main .cardmain-bottom {
+    margin-left: 134px;
+    margin-bottom: 16px
+}
+
+.jtitle {
+    font-weight: normal
+}
+
+.more-bank {
+    background: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png") no-repeat scroll -158px -49px transparent;
+    width: 12px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 4px
+}
+
+.more-bank.fold {
+    background-position: -158px -69px
+}
+
+.more-banktitle {
+    font-weight: normal;
+    margin-bottom: 14px
+}
+
+.other-bank-list {
+}
+
+.other-bank-list label {
+    float: left;
+    height: 25px;
+    width: 125px;
+    border: 1px solid #E7E7E7;
+    line-height: 25px;
+    margin: 0 -1px -1px 0;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    padding-left: 3px
+}
+
+.other-bank-list label.current {
+    background: #F0F5F8;
+    border: 1px solid #a0bedc;
+    z-index: 10
+}
+
+.bank-list {
+    margin: 10px 0
+}
+
+.e-bank-boxdetail {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    color: #888
+}
+
+.jtitle {
+    padding-left: 64px
+}
+
+.jun-network-box .e-bank-boxdetail {
+    margin-top: 52px
+}
+
+.pvd-accselect-title {
+    padding: 0
+}
+
+.live-main .pvd-accselect-title {
+    width: 124px
+}
+
+.live-main .accselect-main {
+    padding-left: 2px
+}
+
+.kcodelabel {
+    line-height: 44px
+}
+
+.tips {
+    color: #888888;
+    padding-left: 44px;
+    padding-top: 24px
+}
+
+.tips h3 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 13px
+}
+
+.tips li {
+    line-height: 18px;
+    margin-bottom: 13px
+}
+
+.tips .record-table {
+    margin-top: 10px;
+    width: 70%
+}
+
+.record-table {
+    clear: both;
+    margin-bottom: 10px;
+    width: 790px
+}
+
+.record-table th, .record-table td {
+    border: 1px solid #DDDDDD;
+    padding: 8px 0;
+    text-align: center
+}
+
+.messgae-box .e-bank-boxdetail {
+    padding-right: 110px
+}
+
+.pay-list {
+    position: relative;
+    top: -50px
+}
+
+.pay-list li, .help-list li {
+    float: left;
+    margin-right: 10px
+}
+
+.pay-list li a, .help-list li a {
+    background-color: #E3EEF8;
+    display: block;
+    padding: 7px 30px 5px
+}
+
+.pay-list li a:hover, .help-list li a:hover {
+    background-color: #CEE1EE;
+    color: #333333;
+    text-decoration: none
+}
+
+.pay-list .current, .help-list .current {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #A0BEDC #A0BEDC -moz-use-text-color;
+    border-color: #A0BEDC #A0BEDC;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium
+}
+
+.pay-list li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cee1ee #cee1ee -moz-use-text-color;
+    border-color: #cee1ee #cee1ee;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium
+}
+
+.pay-list .current a, .help-list .current a {
+    background-color: #FFFFFF
+}
+
+.pay-list .current a:hover, .help-list .current a:hover {
+    background-color: #FFFFFF
+}
+
+.pay-list .others {
+    position: relative
+}
+
+.pay-list .others a {
+    background-color: #FFFFFF
+}
+
+.pay-list .others a:hover {
+    background-color: #FFFFFF
+}
+
+.pay-list .others .title {
+    background: url("http://a.xnimg.cn/xnapp/pay/img/arrow.gif") no-repeat scroll 100% 50% transparent;
+    padding-right: 15px
+}
+
+input.app-search {
+    border: none;
+    border: 1px solid #cacfdc;
+    width: 169px;
+    height: 21px;
+    padding: 0;
+    padding-left: 10px;
+    font-weight: normal;
+    position: absolute;
+    left: 66px;
+    top: -4px
+}
+
+a.searchbtn {
+    background: url("http://s.xnimg.cn/xnapp/pay/images/app-re.png") no-repeat scroll -176px -1px transparent;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 246px;
+    top: -4px
+}
+
+.app-title {
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 7px;
+    margin-bottom: 10px
+}
+
+.app-account {
+    padding-left: 24px;
+    width: 534px
+}
+
+.app-account li {
+    float: left;
+    margin-bottom: 30px;
+    width: 174px
+}
+
+.app-account li .app-pic {
+    display: block;
+    height: 75px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 75px
+}
+
+.app-account li .app-round-corner {
+    background: url("http://a.xnimg.cn/imgpro/app/mask75.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 75px;
+    left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    width: 75px
+}
+
+.app-account li span {
+    display: block;
+    line-height: 16px;
+    margin-top: 4px;
+    overflow: hidden
+}
+
+.app-account li span a {
+    font-weight: bold
+}
+
+.playing {
+    color: #999
+}
+
+.app-account li span a.app-paybtn {
+    display: block;
+    width: 64px;
+    height: 30px;
+    background: url("http://s.xnimg.cn/xnapp/pay/images/app-re.png") no-repeat scroll -1px -30px transparent
+}
+
+.page-change {
+    margin: 25px 0 20px 0
+}
+
+.page-change li {
+    float: left;
+    margin-right: 13px;
+    width: 22px
+}
+
+.page-change li.previous-page, .page-change li.next-page {
+    width: 50px
+}
+
+.pagernum a {
+    display: block;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #eee;
+    line-height: 20px;
+    text-align: center
+}
+
+.pagernum a:hover, .pagernum .current a {
+    text-decoration: none;
+    background-color: #005eac;
+    color: #fff
+}
+
+.previous-page a, .next-page a {
+    width: 58px
+}
+
+.page-change ul {
+    float: right
+}
+
+.page-change li.unpress a, .page-change li.unpress a:hover {
+    cursor: auto;
+    border-color: #eee;
+    color: #ccc;
+    background-color: #fff
+}
+
+.hot-app li {
+    width: 250px
+}
+
+.hot-app .playing {
+    width: 160px;
+    height: 32px;
+    overflow: hidden;
+    color: #333
+}
+
+.hot-app li span.game-class a {
+    font-weight: normal;
+    color: #888
+}
+
+.my-account {
+    width: 792px;
+    padding-left: 24px;
+    min-height: 450px;
+    height: auto !important;
+    height: 450px
+}
+
+.account-title-ps {
+    color: #aaa;
+    font-weight: normal;
+    margin-left: 20px
+}
+
+.my-acc-a {
+    margin-left: 20px
+}
+
+.app-titlelast {
+    margin-top: 20px;
+    border: none
+}
+
+.pay-acclist {
+    top: 0;
+    padding-left: 1px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 19px
+}
+
+.pay-acclist li a, .pay-acclis li a {
+    padding: 7px 20px 5px
+}
+
+.table-top {
+    background-color: #f0f4f7
+}
+
+.accselect-infoapp {
+    margin-bottom: 20px
+}
+
+.accselect-infoappfir {
+    line-height: 50px
+}
+
+.applink-line {
+    margin-bottom: 20px;
+    font-size: 15px
+}
+
+.app-content {
+    padding: 20px;
+    border: 1px solid #336699;
+    width: 760px;
+    background-color: #fff
+}
+
+.app-main {
+    width: 532px
+}
+
+.app-pay {
+    padding-top: 80px;
+    background: url("http://s.xnimg.cn/xnapp/pay/images/app-bg.jpg") no-repeat center top transparent
+}
+
+.paylive-ps {
+    color: #ff0000;
+    margin-left: 6px
+}
+
+input.in-numlive {
+    padding: 6px
+}
+
+label.live-title {
+    line-height: 30px
+}
+
+.livepaynum-item {
+    width: auto;
+    line-height: 30px;
+    margin-right: 30px
+}
+
+a.recharge-btn-gray {
+    background: url("http://s.xnimg.cn/xnapp/pay/images/app-re.png") no-repeat scroll 0 -62px transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    width: 92px
+}
+
+.live-bottom {
+    margin-left: 114px;
+    margin-top: 20px
+}
+
+.live-main .accselect-main {
+    width: 394px
+}
+
+.live-item-main {
+    font-weight: bold
+}
+
+.account-live {
+    width: 510px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fffbc1;
+    border: 1px solid #f9b967;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 0
+}
+
+.effective {
+    color: #5ea344
+}
+
+a.achive-btn {
+    display: block;
+    background-image: url("http://a.xnimg.cn/xnapp/pay-new/img/pay-icon.png");
+    color: #FFFFFF;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    float: left
+}
+
+.live-info {
+    margin: 10px 0 20px 0;
+    line-height: 28px
+}
+
+.PayPal-tip li {
+    float: left
+}
+
+.acc-billNo {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: right;
+    color: #999;
+    line-height: 24px;
+    width: 125px
+}
+
+.acc-status {
+    line-height: 24px;
+    height: 22px
+}
+
+.acc-time {
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 3px;
+    color: #999
+}
+
+.acc-search-button {
+    margin-left: 313px;
+    margin-top: -22px;
+    float: right;
+    margin-bottom: 25px
+}
+
+input.acc-time-input {
+    width: 80px
+}
+
+.acc-emptyrecord {
+    background-color: #F0F4F7;
+    font-size: 104%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 31px;
+    line-height: 29px
+}
+
+.acc-number {
+    color: #EB8828;
+    font-weight: bold
+}
+
+.Wdate {
+    border: #999 1px solid;
+    height: 19px;
+    width: 80px;
+    background: #fff url(http://a.xnimg.cn/xnapp/pay-new/img/datePicker.gif) no-repeat right
+}
+
+.WdateFmtErr {
+    font-weight: bold;
+    color: red
+}
+
+input.in-num {
+    width: 143px
+}
+
+.acchelp-a {
+    display: block;
+    width: 122px;
+    height: 24px;
+    font-size: 11px;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-left: 23px
+}
+
+.selected-help-item {
+    background-color: #E3EEF8;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.help-tab p {
+    padding-left: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.help-tab {
+    padding: 9px 20px
+}
+
+.help-tabl ol, ul {
+    list-style: none
+}
+
+.inline {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline
+}
+
+.site-footer ul.link.contact li {
+    background: url(http://a.xnimg.cn/xnapp/pay/img/icon_sprite.gif) no-repeat;
+    padding-left: 18px
+}
+
+.site-footer ul.link.contact li.phone {
+    background-position: 0 -74px
+}
+
+.site-footer ul.link.contact li.email {
+    background-position: 0 -48px
+}
+
+.site-footer ul.link.contact li.feedback {
+    background-position: 0 -23px
+}
+
+#pMfs .input-text {
+    width: 110px
+}
+
+.popup-container .face-smile {
+    background: url(http://a.xnimg.cn/xnapp/pay/img/face.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    float: left;
+    display: inline;
+    margin: 20px
+}
+
+.popup-container .fail {
+    background: url(http://a.xnimg.cn/xnapp/pay/img/face.png) no-repeat left bottom
+}
+
+.popup-container .message {
+    padding: 20px 0;
+    padding-top: 20px;
+    margin: 0 20px 0 100px
+}
+
+.popup-container .message .marq_wrap {
+    height: 20px;
+    border: 1px solid #0080ff
+}
+
+.popup-container .message .marq_item {
+    background-color: #80c2f9;
+    width: 0;
+    height: 20px
+}
+
+.popup-container .message .marq_p3 {
+    margin-top: 10px
+}
+
+.popup-container .message p {
+    line-height: 18px;
+    margin-bottom: 10px
+}
+
+.popup-container .message .p1 {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.popup-container .message .p2 {
+    color: #808080
+}
+
+.popup-container .message .p3 {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px dotted #999
+}
+
+.popup-container .message .loading-bar {
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/loading-bar.gif) no-repeat 0 0;
+    width: 150px;
+    height: 15px;
+    margin: 10px 10px
+}
+
+.popup-container .other-type {
+    float: right;
+    cursor: pointer;
+    padding: 5px 10px
+}
+
+.title_home, .title_recharge, .title_vip, .title_life, .title_task, .title_expend, .title_account {
+    margin: 25px auto;
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/nav.png) no-repeat 0 -9px;
+    display: block;
+    width: 80px;
+    height: 25px;
+    background-color: transparent
+}
+
+.title_home {
+    background-position: 30px -9px
+}
+
+.title_recharge {
+    background-position: -60px -9px
+}
+
+.title_vip {
+    background-position: -140px -9px
+}
+
+.title_life {
+    background-position: -220px -9px
+}
+
+.title_task {
+    background-position: -300px -9px
+}
+
+.title_expend {
+    background-position: -380px -9px
+}
+
+.title_account {
+    background-position: -460px -9px
+}
+
+.selected .title_home, a:hover .title_home {
+    background-position: 30px -37px
+}
+
+.selected .title_recharge, a:hover .title_recharge {
+    background-position: -60px -37px
+}
+
+.selected .title_vip, a:hover .title_vip {
+    background-position: -140px -37px
+}
+
+.selected .title_life, a:hover .title_life {
+    background-position: -220px -37px
+}
+
+.selected .title_task, a:hover .title_task {
+    background-position: -300px -37px
+}
+
+.selected .title_expend, a:hover .title_expend {
+    background-position: -380px -37px
+}
+
+.selected .title_account, a:hover .title_account {
+    background-position: -460px -37px
+}
+
+.paynav-title a {
+    display: block;
+    width: 80px
+}
+
+input[type=text].txt-number {
+    ime-mode: disabled;
+    width: 50px
+}
+
+.result-container {
+    margin: 20px 0;
+    padding: 20px 40px 20px 40px;
+    font-size: 12px
+}
+
+.result-container.error {
+    background-color: #FCEEE8;
+    border: 1px solid #F6C8B5
+}
+
+.result-container h1 {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    padding-left: 40px
+}
+
+.result-container.error h1 {
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/action_fail_small.png) no-repeat 0 0
+}
+
+.result-container.success {
+    background-color: #F1FFD6;
+    border: 1px solid #EAEAD7
+}
+
+.result-container.success h1 {
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/action_success_small.png) no-repeat 0 0
+}
+
+.result-container .title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px 15px 10px
+}
+
+.result-detail {
+    width: 900px;
+    padding: 10px 0;
+    margin-top: 5px;
+    border-top: 1px dashed rgb(184, 181, 181)
+}
+
+.result-detail .bill-info {
+    background-color: #EAEAD7
+}
+
+.result-detail dt, .result-detail dd {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-bottom: 10px;
+    height: 20px;
+    line-height: 20px
+}
+
+.result-detail dt {
+    font-weight: bold;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px
+}
+
+.result-detail dd {
+    width: 300px
+}
+
+.result-more {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px
+}
+
+.result-more span, .result-more a {
+    margin-right: 5px
+}
+
+.result-detail .tip {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 5px
+}
+
+.result-container .result-detail a {
+    margin: 0 0.2em
+}
+
+.message-bar {
+    padding: 7px 10px;
+    background-color: #fffbc1;
+    border: 1px solid #f9b965;
+    color: #e80211;
+    margin: 10px 10px 10px 40px
+}
+
+span.tips {
+    height: 17px;
+    line-height: 17px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-left: 0.5em;
+    background: url(http://a.xnimg.cn/xnapp/pay-new/img/tc_app_tips.jpg) no-repeat;
+    vertical-align: middle
+}
+
+span.err {
+    background-position: 0 -3px;
+    background-color: #fcecc9;
+    border-color: #f3bf4e;
+    padding: 1px 10px 1px 20px;
+    color: #f37607
+}
+
+span.suc {
+    background-position: 0 -26px;
+    background-color: #d4f5ca;
+    border-color: #8ee370;
+    padding: 1px 10px 1px 20px;
+    color: #009604
+}
+
+ul.account-info li {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f5f8;
+    line-height: 20px
+}
+
+ul.account-info li a {
+    margin: 0 0.1em
+}
+
+ul.account-info li a.my-acc-a {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #005EAC;
+    border-radius: 3px;
+    margin: 0 20px
+}
+
+ul.account-info li .title span {
+    float: left;
+    font-size: 16px
+}
+
+ul.account-info li .title span.first {
+    width: 120px;
+    text-align: right;
+    font-weight: bold
+}
+
+ul.account-info li .detail {
+    padding-left: 120px
+}
+
+ul.account-info li .desc, ul.account-info li .tip {
+    margin: 5px 0;
+    font-size: 12px
+}
+
+ul.account-info li .tip {
+    color: #888
+}
+
+.maintain-wrapper {
+    width: 360px;
+    padding: 100px 0;
+    margin: 0 auto
+}
+
+.maintain-wrapper img {
+    float: left;
+    margin-right: 20px
+}
+
+.maintain-wrapper .text {
+    font-size: 14px;
+    padding-top: 36px;
+    line-height: 20px
+}
