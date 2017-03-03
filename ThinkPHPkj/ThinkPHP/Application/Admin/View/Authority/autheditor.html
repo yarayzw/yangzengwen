@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>主要内容区main</title>
+    <style>
+        ul li{list-style: none;}
+    </style>
+
+</head>
+<body>
+<!--main_top-->
+
+
+       您的位置：修改<span style="color:red;">{$rolename}</span>的权限
+
+
+    <form method="post" action="__URL__/authaction">
+        <ul>
+            <foreach name="authp" item="fo">
+            <li>
+                <input type="checkbox" name="authname[]" <if condition="in_array($fo['authid'],$roleauthids)">checked='checked'</if> value="{$fo.authid}">{$fo.authname}
+            </li>
+                <foreach name="auths" item="foo">
+                <ul>
+
+                    <if condition="$foo['authpid'] eq $fo['authid']">
+                        <li><input type="checkbox" name="authname[]" <if condition="in_array($foo['authid'],$roleauthids)">checked='checked'</if> value="{$foo.authid}">{$foo.authname}</li>
+                    </if>
+
+                </ul>
+                </foreach>
+            </foreach>
+        </ul>
+        <input type="hidden" value="{$roleid}" name="roleid"/>
+        <input type="submit" value="修改">
+        </form>
+
+
+
+</body>
+<script>
+
+</script>
+</html>

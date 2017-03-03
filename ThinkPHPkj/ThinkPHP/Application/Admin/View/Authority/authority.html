@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>主要内容区main</title>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/layer/layer.js"></script>
+    <link href="__PUBLIC__/Admin/css/css.css" type="text/css" rel="stylesheet"/>
+    <link href="__PUBLIC__/Admin/css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="__PUBLIC__/Admin/css/mainselect.css" type="text/css" rel="stylesheet"/>
+    <link href="__PUBLIC__/Admin/css/page.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!--main_top-->
+<table width="99%" border="0" cellspacing="0" cellpadding="0" id="searchmain">
+    <tr>
+        <td width="99%" align="left" valign="top">您的位置：权限信息</td>
+    </tr>
+
+    <tr>
+        <td align="left" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" id="main-tab">
+                <tr>
+                    <th align="center" valign="middle" class="borderright">编号</th>
+                    <th align="center" valign="middle" class="borderright">权限名称</th>
+                    <th align="center" valign="middle" class="borderright">父编号</th>
+                    <th align="center" valign="middle" class="borderright">控制器</th>
+                    <th align="center" valign="middle" class="borderright">方法</th>
+                    <th align="center" valign="middle" class="borderright">路径</th>
+                    <th align="center" valign="middle" class="borderright">权限等级</th>
+                </tr>
+                <foreach name="authp" item="vo">
+                    <tr onMouseOut="this.style.backgroundColor='#ffffff'" onMouseOver="this.style.backgroundColor='#edf5ff'">
+                        <td align='center' valign='middle' class='borderright'>{$vo.authid}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.authname}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.authpid}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.authc}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.autha}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.authpath}</td>
+                        <td align='center' valign='middle' class='borderright'>{$vo.authlevel}</td>
+                    </tr>
+                    <foreach name="auths" item="voo">
+                        <if condition="$voo['authpid'] eq $vo['authid']">
+                        <tr onMouseOut="this.style.backgroundColor='#ffffff'" onMouseOver="this.style.backgroundColor='#edf5ff'">
+                            <td align='center' valign='middle' class='borderright'>{$voo.authid}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.authname}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.authpid}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.authc}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.autha}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.authpath}</td>
+                            <td align='center' valign='middle' class='borderright'>{$voo.authlevel}</td>
+                        </tr>
+                        </if>
+                    </foreach>
+                </foreach>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+
+</html>

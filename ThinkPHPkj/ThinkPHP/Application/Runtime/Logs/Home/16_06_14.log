@@ -1,0 +1,41 @@
+[ 2016-06-14T01:47:20+08:00 ] ::1 /thinkphp/index.php/Home/Select/select
+ERR: Think\Model:sava方法不存在！
+
+[ 2016-06-14T20:04:31+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: 1146:Table 'test.think_from' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_from`
+
+[ 2016-06-14T20:05:23+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: 1146:Table 'test.php0308' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `php0308`
+
+[ 2016-06-14T20:05:45+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: 1146:Table 'db_name.php0308' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_name`.`php0308`
+
+[ 2016-06-14T20:13:40+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: 1146:Table 'test.think_user,think_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user,think_form`
+
+[ 2016-06-14T20:20:59+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: Think\Controller:find方法不存在！
+
+[ 2016-06-14T20:31:50+08:00 ] ::1 /thinkphp/Home/select/select
+ERR: 1054:Unknown column 'user_name' in 'group statement'
+ [ SQL语句 ] : SELECT * FROM `think_user` GROUP BY user_name 
+
+[ 2016-06-14T23:51:11+08:00 ] ::1 /thinkphp/
+ERR: 模板不存在:./Application/Common/View/Public/success.html
+
+[ 2016-06-14T23:52:57+08:00 ] ::1 /thinkphp/
+ERR: 模板不存在:./Application/Common/View/Public/success.html
+
+[ 2016-06-14T23:53:01+08:00 ] ::1 /thinkphp/
+ERR: 模板不存在:./Application/Common/View/Public/success.html
+
+[ 2016-06-14T23:53:22+08:00 ] ::1 /thinkphp/home
+ERR: 模板不存在:./Application/Common/View/Public/success.html
+
+[ 2016-06-14T23:53:33+08:00 ] ::1 /thinkphp/home/
+ERR: 模板不存在:./Application/Common/View/Public/success.html
+
