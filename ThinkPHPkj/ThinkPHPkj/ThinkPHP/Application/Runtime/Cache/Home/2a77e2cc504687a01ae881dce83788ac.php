@@ -1,0 +1,266 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+
+    <script type="text/javascript" src="/thinkphp/Public/Home/js/jquery-1.11.3.js"></script>
+
+    <link href="/thinkphp/Public/Home/css/global-all-min.css" rel="stylesheet" type="text/css"/>
+    <link href="/thinkphp/Public/Home/css/global2-all-min.css" rel="stylesheet"/>
+    <link href="/thinkphp/Public/Home/css/pay-all-min.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <link href="/thinkphp/Public/Home/css/vip-pay-update.15345.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/thinkphp/Public/Home/css/vip_index.16031.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/thinkphp/Public/Home/css/paynew.15955.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>Vipuser</title>
+
+</head>
+<body id="" class="vip_pay_body">
+
+<div class="site-nav-wrapper">
+    <div id="navBar" class="site-nav fixed">
+        <div id="navigation-for-buddylist">
+            <div class="navigation-wrapper">
+                <div class="navigation navigation-new clearfix">
+                    <div id="logo2">
+                        <h1>
+                            <a href="#">
+                                <img  width="160" src="/thinkphp/Public/Home/images/vip/logo.png"/>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="nav-body clearfix">
+                        <div class="nav-main">
+                            <div class="menu">
+                                <div class="menu-title" style="width:105px">
+                                    <a  href="#">
+                                        <span class="menu-title-text">人人网首页</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-other">
+                            <div class="menu account-action">
+                                <div class="menu-title">
+                                    <a href="#" style="background-image: none">退出</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pay-header clearfix">
+    <div class="header-inner">
+        <div class="pay-logo">
+            <img src="/thinkphp/Public/Home/images/vip/paytitle.jpg"/>
+        </div>
+        <ul class="pay-nav clearfix">
+
+
+            <li class="paynav-title selected">
+                <a href="#" title="会员开通">
+                    <i class="title_vip"></i>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </div>
+</div>
+
+<div class="pay-wrap pay-wrap-v6 clearfix"><!--/pay-wrap-->
+    <!--main-->
+    <div class="main-tab-div clearfix">
+
+        <div class="main-type-div">
+
+
+    </div>
+    <div class="main-pay clearfix">
+        <div class="side-bar">
+            <ul class="side-nav" id="sideNav">
+                <li id="youkeT"><a href="#">手机包月</a></li>
+            </ul>
+        </div>
+        <div class="operate">
+            <div class="frame-box">
+                <div class="to_user_tip clearfix" id="to_user_tip">
+                    <a href="javascript:;" class="close_tip" onclick="$('to_user_tip').style.display='none';">×</a>
+                    <h4></h4>
+                    <div class="user_tip_item">
+                        <p>1、限时特惠！开通人人年付会员，立减72元！还有百分百中奖等你来~</p>
+                        <a class="tip_to_details" href="#" target="_top">立即开通>></a>
+                    </div>
+                    <div class="user_tip_item">
+                        <p>2、此支付方式暂时仅支持部分省份（市）开通，包括上海、北京、广西、福建、江苏、山西、海南、甘肃、辽宁、河北、重庆、河南、吉林、黑龙江、湖北、广东。其他省份（市）用户请使用其他方式开通，敬请谅解。</p>
+                    </div>
+                </div>
+                <br/>
+                <!-- end tag-->
+                <div class="msg-bank">
+                    <h3 class="yd-mobile" id="yk-m-bank">您选择的是<em>“手机包月支付”</em>方式<span id="yk-title"></span>开VIP会员！</h3>
+                    <ul class="clearfix">
+                        <li class="current"><span>填写开通信息</span></li>
+                    </ul>
+                </div>
+                <!--form box-->
+                <div class="form-box dx-box">
+                    <form action="/thinkphp/index.php/Home/Home/saveVipuser" method="post">
+                        <p>
+                            <label>您的账号信息：</label>
+                            <strong><?php echo ($name); ?></strong>
+                        </p>
+                        <!--登录ID-->
+                        <p>
+                            <label>开通时长：</label>
+                            <input class="num" type="radio" name="money" value="1" checked/>1个月
+                            <input class="num" type="radio" name="money" value="3"/>3个月
+                            <input class="num" type="radio" name="money" value="6"/>6个月
+                            <input class="num" type="radio" name="money" value="12"/>12个月
+                            <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>资费:<em>10</em>元/月</span>
+                        </p>
+                        <p>
+                            <label>验证图片：</label>
+                            <img style="cursor:pointer;" id="icode" onclick="this.src=this.src+'?M='+Math.random();" src="/thinkphp/Home/index/code"/>
+                        </p>
+                        <p>
+                            <label>验证码：</label>
+                            <input class="in-test" type="text" name="checkcode" id="checkcode" size="4" maxlength="4" value="" onfocus="check()" />
+                            <span id="errorid" style="color: #df5de8; font-size:20px"><?php echo ($error); ?></span>
+                            <input type="hidden" name="key_id" id="key_id" value="vipopen"/>
+                        </p>
+                        <div class="main-tab-r">
+
+                        </div>
+                        <button>确定</button>
+                    </form>
+                </div>
+
+                <script>
+                    function check(){
+                        document.getElementById('errorid').innerHTML='';
+                    }
+
+
+
+
+                    /*function checkagain(){
+
+                     alert(1);
+                     var text=document.getElementById('checkcode').value;
+                     alert(text);
+
+                     $.post('/thinkphp/index.php/Home/Home/checkCode',{text:text},function(data){
+                     alert(data);
+                     },'json');
+
+
+                     alert(11);
+                     }*/
+
+
+                </script>
+
+                <!--/form box--><!--about-->
+                <div class="about-msg">
+                    <h4>温馨提示</h4>
+                    <ul class="">
+                        <li>该手机话费业务仅支持移动用户；</li>
+                        <li>该服务默认自动续费，具体扣费时间以中国移动规定为准；</li>
+                        <li>同一个手机号当月只能订购一个会员服务；</li>
+                        <li>客服电话：400-080-3580转1-0；如需退订，请编辑短信0000发送至10658008；</li>
+                    </ul>
+                    <h4 style="margin-top:10px;">重要提示</h4>
+                    <ul class="">
+                        <li>若您在2014年9月20日至2015年1月31日间，在电脑端开通过移动包月VIP会员，且无法通过上述方法成功退订，请使用手机发送qx#21184至1065880030</li>
+                    </ul>
+                </div>
+                <!--/about-->
+            </div>
+        </div>
+        <!--/pay-->
+    </div>
+    <div class="main-sidebar-v6">
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+    <div class="site-footer" style="background:#fff;position:relative;">
+        <div class="main" style="width: 810px;">
+
+            <span class="copyright">PAPAP网<span title="revision61217; YZSJHL25-183.opi.com">©</span>2016</span>
+        </div>
+        <div class="haoes">
+            <p>
+                <strong>玩转啪啪</strong>
+                <a href="#" target="_blank">公共主页</a>
+                <a href="#" target="_blank">公众平台</a>
+                <a href="#" target="_blank">客服帮助</a>
+                <a href="#" target="_blank">隐私</a>
+            </p>
+
+            <p>
+                <strong>商务合作</strong>
+                <a href="#" target="_blank">品牌营销</a>
+                <a href="#" class="l-2" target="_blank">中小企业<br />自助广告</a>
+                <a href="#" target="_blank">开放平台</a>
+            </p>
+
+            <p>
+                <strong>公司信息</strong>
+                <a href="#" target="_blank">关于我们</a>
+                <a href="#" target="_blank">啪啪公益</a>
+                <a href="#" target="_blank">招聘</a>
+                <a href="#" id="lawInfo">法律声明</a>
+            </p>
+
+            <p>
+                <strong>友情链接</strong>
+                <a href="#" target="_blank">啪啪分期</a>
+                <a href="#" target="_blank">啪啪理财</a>
+                <a href="#" target="_blank">我秀</a>
+                <a href="#" target="_blank">注册局</a>
+            </p>
+
+            <p>
+                <strong>啪啪移动客户端下载</strong>
+                <a href="#" target="_blank">iPhone/Android</a>
+                <a href="#" target="_blank">iPad客户端</a>
+                <a href="#" target="_blank">其他产品</a>
+            </p>
+
+
+            <p class="copyright-info" style="margi-left: -20px">
+                <span>公司全称：郑州景科技发展有限公司</span>
+                <span>公司电话：0371-88888888</span>
+                <span><a href="#">公司邮箱：admin@papa.com</a></span>
+                <span>公司地址：郑州市高新区<br>河南商务产业园</span>
+                <span>违法和不良信息举报电话：027-87676735</span>
+                <span></span>
+                <span><a href="#" target="_blank">京ICP证090254号</a></span>
+                <span>人人网&copy;2016</span>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="bottombar"></div>
+
+<div id="toolBackTo" class="back-to" style="display:none;">
+    <a stats="site_footer_back_to_top" class="backtotop" href="#top">返回顶部
+        <img stats="site_footer_back_to_top" src="/thinkphp/Public/Home/images/vip/back-tip.png" class="back-tip"/>
+    </a>
+</div>
+
+</body>
+
+}
+</html>

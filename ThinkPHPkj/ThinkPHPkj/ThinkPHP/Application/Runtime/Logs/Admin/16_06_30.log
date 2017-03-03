@@ -1,0 +1,12 @@
+[ 2016-06-30T01:19:47+08:00 ] ::1 /thinkphp/index.php/Admin/User/mdfUser?id=6
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=6 )' at line 1
+ [ SQL语句 ] : UPDATE `think_buser` SET  WHERE ( id=6 )
+
+[ 2016-06-30T01:21:03+08:00 ] ::1 /thinkphp/index.php/Admin/User/mdfUser?id=6
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 6' at line 1
+ [ SQL语句 ] : UPDATE `think_buser` SET  WHERE `id` = 6
+
+[ 2016-06-30T11:03:37+08:00 ] ::1 /thinkphp/index.php/Admin/Authority/authaction
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `roleid` = 2' at line 1
+ [ SQL语句 ] : UPDATE `think_role` SET  WHERE `roleid` = 2
+

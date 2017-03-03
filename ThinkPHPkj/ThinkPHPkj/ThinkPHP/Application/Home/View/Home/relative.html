@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="__PUBLIC__/Home/js/jquery-1.11.3.js"></script>
+    <script src="__PUBLIC__/Home/js/layer.js"></script>
+    <style>
+        ul{list-style:none;}
+       body a{text-decoration:none; color:#333}
+    </style>
+</head>
+<body>
+<div style="width:450px;height:200px;">
+    <ul>
+    <foreach name="arr" item="vo">
+
+        <li style="float:left;width:100px;height:50px;border:1px #227DC5 solid;margin-left:20px;margin-top:10px;">
+            <a myselfid="{$vo.id}" onclick="addfriend(this)" href="javascript:void(0)">
+            <img width="50px" height="50px" src="__PUBLIC__/Uploads/{$vo.headphoto}">
+            <span style="position:relative;top:-30px;">{$vo.name}</span>
+            <span style="position:relative;left:50px;top:-25px;font-size:12px; "><img src="__PUBLIC__/Uploads/addfriend.jpg"><span style="position:relative;top:-5px;color:#8F8F8F;">好友</span></span>
+            </a>
+        </li>
+
+    </foreach>
+    </ul>
+</div>
+</body>
+</html>
+<script>
+    function addfriend(ob){
+        var id=$(ob).attr('myselfid');
+        layer.msg('已添加好友');
+        $.post('__URL__/addfriend',{id:id});
+    }
+</script>

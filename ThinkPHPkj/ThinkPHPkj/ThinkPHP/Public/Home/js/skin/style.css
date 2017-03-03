@@ -1,0 +1,14 @@
+html #layui_layer_skinyourskinstylecss {
+    display: none;
+    position: absolute;
+    width: 1989px;
+}
+
+body .layer-ext-yourskin .layui-layer-title {
+}
+
+body .layui-ext-yourskin .layui-layer-btn {
+}
+
+body .layui-ext-yourskin .layui-layer-btn a {
+}

@@ -1,0 +1,502 @@
+[ 2016-06-18T20:26:57+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=18695930940&mcode=3180
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-18T20:28:06+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=18695930940&mcode=6575
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:28:21+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=18695930940&mcode=5800
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-18T20:28:27+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=5800&mobile1=18695930940&mcode1=5800&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:29:28+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=18695930940&mcode=9832
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:29:36+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=9832&mobile1=18695930940&mcode1=&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:29:36+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=9832&mobile1=18695930940&mcode1=9832&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:30:14+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=&mcode=374
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:30:20+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=3745&mobile1=&mcode1=374&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:30:25+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=374&mobile1=&mcode1=374&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:31:25+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=&mcode=5333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:31:35+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=533&mobile1=&mcode1=5333&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:31:47+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=&mobile1=&mcode1=5333&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-18T20:31:53+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=&mobile1=&mcode1=5333&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-18T20:31:57+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?code=&mobile1=&mcode1=5333&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:38:16+08:00 ] ::1 /thinkphp/index.php/Home/Index/010.php?mobile=18695930940&mcode=6245
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-18T20:38:34+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=1717
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-18T20:38:48+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=1717&mobile1=18695930940&mcode1=1717&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T20:44:38+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=9232
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T20:44:48+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=9232&mobile1=18695930940&mcode1=9232&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:49:25+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=6816
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0200s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','123456') [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T20:49:37+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6816&mobile1=18695930940&mcode1=6816&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:50:55+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6816&mobile1=18695930940&mcode1=&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0090s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:50:56+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6816&mobile1=18695930940&mcode1=&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:50:58+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6816&mobile1=18695930940&mcode1=&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0090s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:50:59+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6816&mobile1=18695930940&mcode1=&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:52:22+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=4008
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T20:52:28+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=4008&mobile1=18695930940&mcode1=4008&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:52:55+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=4300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:53:00+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=4300&mobile1=&mcode1=4300&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:53:16+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=1920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:53:22+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:53:28+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=5341
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:53:39+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=8957
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:56:26+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=6467
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:56:35+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=5874
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+ERR: 1062:Duplicate entry '18695930940-' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456')
+
+[ 2016-06-18T20:57:30+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=7928
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: code E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: mcode E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: phone E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: pwd E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 81 行.
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+
+[ 2016-06-18T20:57:34+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=7298
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: mcode E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: phone E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: pwd E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 81 行.
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+
+[ 2016-06-18T20:57:38+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=5228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: code E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: mcode E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: phone E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: pwd E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 81 行.
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+
+[ 2016-06-18T20:57:40+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=1608
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: code E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: mcode E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: phone E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: pwd E:\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 81 行.
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES (NULL,NULL)
+
+[ 2016-06-18T20:57:57+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=5588
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T20:58:02+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=5588&mobile1=&mcode1=5588&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T21:01:39+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=4373
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0140s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('','') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-18T21:02:04+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930945&mcode=8483
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:02:19+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=&mcode=4774
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:02:23+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=&mobile1=&mcode1=4774&pwd=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T21:05:11+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=4872
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:05:33+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=4872&mobile1=18695930940&mcode1=4872&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T21:07:15+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=8559
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('','') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-06-18T21:07:27+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=8559&mobile1=18695930940&mcode1=8559&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`) VALUES ('18695930940','a123456') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-18T21:08:53+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930941&mcode=8255
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:09:52+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930949&mcode=4499
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:11:07+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18645258951&mcode=1020
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+ERR: 1062:Duplicate entry '' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `think_user` (`tel`,`password`) VALUES ('','')
+
+[ 2016-06-18T21:11:20+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=123&mobile1=18645258951&mcode1=1020&pwd=a123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
