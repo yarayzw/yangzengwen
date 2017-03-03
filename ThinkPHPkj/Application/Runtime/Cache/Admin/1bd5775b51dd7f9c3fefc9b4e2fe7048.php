@@ -1,0 +1,464 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<link id='yd_easyui_themes' href="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-easyui-1.4.4/themes/default/easyui.css" rel="stylesheet" type="text/css" />
+<link href="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-easyui-1.4.4/themes/icon.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-easyui-1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-easyui-1.4.4/jquery.easyui.min.js"></script>
+<!--<{*中文语言包*}>-->
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js"></script>
+<!--<{*验证扩展*}>-->
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/validateextend.js"></script>
+<!--<{*html5上传插件*}>-->
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery.Huploadify.js"></script>
+<!--<{*关联浏览扩展*}>-->
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/datagrid-detailview.js"></script>
+<!--<{*单元格编辑扩展*}>-->
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/datagrid-cellediting.js"></script>
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/syUtil.js"></script>
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/index.js"></script>
+<script type="text/javascript" src="/my/ThinkPHPkj/ThinkPHPkj/Public/Admin/js/jquery-form.js"></script>
+<!--<{*不蒜子访问统计*}>-->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<body>
+<div id="yd_toolbar" style="padding:5px;">
+    <div style="margin-bottom:5px;">
+
+        <!--<a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-no" plain="true" onclick="delAll();"-->
+        <!--style="float: left">批量删除</a>-->
+
+        <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-reload" plain="true" id='reload'
+           onclick="sup_list();" style="float: left">刷新</a>
+        <a href="javascript:void(0);" class="easyui-linkbutton" style="visibility:hidden"></a>
+    </div>
+    <div>
+        <form id='list_search'>
+            <div style="padding:0 0 0 7px;color:#333;">
+                <input type='hidden' name='action' value='ajax'/>
+                奖品名称:<input type="text" class="easyui-textbox" id="prize_name" name="prize_name" style="width:110px">
+                是否启用：
+                <!--<select name="prize_isdel" editable="false" class="easyui-combobox">-->
+                    <!--<option value="1">启用</option>-->
+                    <!--<option value="2">停用</option>-->
+                <!--</select>-->
+                <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-search"
+                   onclick="p_search();">查询</a>
+                <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-back'"
+                   onclick="cleanSearch('');">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="easyui-layout" fit="true" id='bt_dial_layout'>
+    <div region="center" style="border: none;">
+        <table id="bt_dial"></table>
+    </div>
+    <div region="east" style="width: 60%;padding: 2px;" title="指定获奖人" collapsed="true" split='true'>
+        <table id="bt_assign_prize"></table>
+    </div>
+</div>
+<div id ="dial_dialog_div"></div>
+<div id="userList"></div>
+</body>
+</html>
+<script>
+    var $dialList = $('#bt_dial');
+    var $assignPrize = $('#bt_assign_prize');
+    var context = this;
+    $dialList.datagrid({
+        fit: true,
+        border:false,
+        url:  '/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/dialListAjax',
+        idField: 'id',
+        sortName : 'id',
+        sortOrder : 'desc',
+        queryParams: { 'action': 'ajax' },
+        pageSize: 20,
+        pageList : [ 20, 50, 100,200 ],
+        // singleSelect:true,
+        pagination: true,//分页控件
+        rownumbers: true,//行号
+        fitColumns: false,
+        singleSelect:true,
+        checkOnSelect : true,
+        selectOnCheck : true,
+        columns: [[
+            { field: 'number', checkbox: true },
+            { field: 'id', title: '编号', align: 'center', width: 40, sortable: true },
+            { field: 'min', title: '起始角度', width: 180 },
+            { field: 'max', title: '结束角度', width: 120 },
+            { field: 'prize_name', title: '奖品名称', width: 80, sortable: true},
+            { field: 'probability', title: '获奖概率', width: 80, formatter: function (value, row) {
+                return value+"%";
+            } },
+            {
+                field: 'cz_id', title: '操作', width: 80, align: 'center', formatter: function (value, row) {
+                var ctrs = [];
+                ctrs = ['<span  title="编辑" class="img-btn icon-edit" data-title="" style="cursor:pointer;" onclick="updateDial(this);" data-height="270" data-form="updateDial"  data-id='+row.id+'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>'];
+//                if(row.is_del==1){
+//                    ctrs.push('<span title="删除" class="img-btn icon-remove" data-url="" style="cursor:pointer;"  onclick="deleteOne(this)" data-id='+row.user_id+' data-state="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>');
+//                }else {
+//                    ctrs.push('<span title="恢复" class="img-btn icon-undo" data-url="" style="cursor:pointer;"  onclick="deleteOne(this)" data-id='+row.user_id+' data-state="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>');
+//                }
+
+                return ctrs.join(' ');
+            }
+            }
+
+        ]],
+        onRowContextMenu : function(e, rowIndex, rowData) {
+            e.preventDefault();
+            $(this).datagrid('unselectAll');
+            $(this).datagrid('selectRow', rowIndex);
+            $('#menu_order').menu('show', {
+                left : e.pageX,
+                top : e.pageY
+            });
+        },
+        toolbar: '#yd_toolbar',
+        onClickRow : function(value, row){
+
+        },
+        onSelect:function(value, row){
+            if(row.id==0){
+                return;
+            }
+            var $layout = $('#bt_dial_layout');
+            var east = $layout.layout('panel', 'east');
+            if (east.panel('options').collapsed) {
+                $layout.layout('expand', 'east');
+            }
+            var dial_ajaxid = row.id;
+            $assignPrize.datagrid({
+                fit: true,
+                border:false,
+                url:  '/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/assignPrizeListAjax',
+                idField: 'id',
+                sortName : 'id',
+                sortOrder : 'desc',
+                queryParams: { 'dial_id': row.id },
+                pageSize: 20,
+                pageList : [ 20, 50, 100,200 ],
+                // singleSelect:true,
+                pagination: true,//分页控件
+                rownumbers: true,//行号
+                fitColumns: false,
+                singleSelect:true,
+                checkOnSelect : true,
+                selectOnCheck : true,
+                columns: [[
+                    { field: 'number', checkbox: true },
+                    { field: 'id', title: '编号', align: 'center', width: 50, sortable: true },
+                    { field: 'dial_id', title: '指定奖品id', width: 80 , sortable: true},
+                    { field: 'dial_name', title: '指定奖品名称', width: 100 },
+                    { field: 'user_id', title: '指定人ID', width: 80, sortable: true},
+                    { field: 'user_name', title: '指定人名称', width: 80 },
+                    { field: 'admin_name', title: '创建者名称', width: 80 },
+                    { field: 'creat_time', title: '创建时间', width: 150, sortable: true ,formatter: function(value,row){
+                            if(value){
+                                var value_time = parseInt(value);
+                                var time = new Date(value_time * 1000);
+                                var ymdhis = "";
+                                ymdhis += time.getUTCFullYear() + "-";
+                                ymdhis += (time.getUTCMonth()+1) + "-";
+                                ymdhis += time.getUTCDate();
+
+                                ymdhis += " " + time.getUTCHours() + ":";
+                                ymdhis += time.getUTCMinutes() + ":";
+                                ymdhis += time.getUTCSeconds();
+
+                                return ymdhis;
+                            }
+                        }
+                    },
+                    { field: 'update_time', title: '更新时间', width: 150, sortable: true ,formatter: function(value,row){
+                        if(value){
+                            var value_time = parseInt(value);
+                            var time = new Date(value_time * 1000);
+                            var ymdhis = "";
+                            ymdhis += time.getUTCFullYear() + "-";
+                            ymdhis += (time.getUTCMonth()+1) + "-";
+                            ymdhis += time.getUTCDate();
+
+                            ymdhis += " " + time.getUTCHours() + ":";
+                            ymdhis += time.getUTCMinutes() + ":";
+                            ymdhis += time.getUTCSeconds();
+
+                            return ymdhis;
+                        }
+                    }
+                    },
+                    { field: 'interval_time', title: '获奖时间间隔', sortable: true, width: 80 ,formatter: function(value,row){
+                        return value+"天";
+                    }},
+                    { field: 'prize_num', title: '获取剩余次数', sortable: true, width: 80 },
+//                    {
+//                        field: 'cz_id', title: '操作', width: 80, align: 'center', formatter: function (value, row) {
+//                        var ctrs = [];
+//                        ctrs = ['<span  title="编辑" class="img-btn icon-edit" data-title="" style="cursor:pointer;" onclick="updateAssignUser(this);" data-height="270" data-form="updateAssignUser"  data-id='+row.id+'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>'];
+//                        return ctrs.join(' ');
+//                    }
+//                    }
+
+                ]],
+                onRowContextMenu : function(e, rowIndex, rowData) {
+                    e.preventDefault();
+                    $(this).datagrid('unselectAll');
+                    $(this).datagrid('selectRow', rowIndex);
+                    $('#menu_order').menu('show', {
+                        left : e.pageX,
+                        top : e.pageY
+                    });
+                },
+                onClickRow : function(value, row){
+
+                },
+                toolbar:["-",
+                    {
+                        text: '新增',
+                        iconCls: 'icon-add',
+                        handler: function(){
+//                            alert(dial_ajaxid);
+                            context.addAssignUser(dial_ajaxid);
+                        },
+                    },"-",{
+                        text: '删除',
+                        iconCls: 'icon-remove',
+                        handler: function(){
+                            context.deleteAssignUser();
+                        },
+                    },
+                ],
+            });
+        }
+    });
+
+    var viewDialog;
+    var show_dialog = $('#dial_dialog_div');
+    /**
+    * 新增指定获奖人
+    * */
+    context.addAssignUser = function(dial_id){
+        viewDialog = show_dialog.dialog({
+            title: '新增获奖人',
+            href: '/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/addAssign',
+            queryParams:{ dial_id:dial_id },
+            width: 800,
+            modal:'post',
+            bodyStyle: { overflow: 'hidden' },
+            height: 600,
+            onClose : function() {
+                $(this).dialog('destroy');
+            },
+            buttons: [{
+                iconCls:'icon-add',
+                text: '新增',
+                handler: function(){
+                    context.doAdd(dial_id);
+                }
+            },
+                {
+                    iconCls:'icon-cancel',
+                    text: '取消',
+                    handler: function(){
+                        viewDialog.dialog('close');
+                    }
+                }],
+            onLoad: function() {
+            }
+        });
+    }
+
+    context.doAdd = function(dial_id){
+        var act = [];
+        var checked = $user_list.datagrid('getChecked');
+        if (checked.length == 0) {
+            $.messager.alert('操作提示', '请至少选择一行！', 'warning');
+            return false;
+        } else {
+            $.each(checked, function (index) {
+                act.push(checked[index].user_id);
+            });
+        }
+        var p = sy.dialog({
+            title : '确认添加',
+            href :  '/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/saveAssign?dial_id='+dial_id+'&act='+act,
+            width : 450,
+            height : 350,
+            buttons : [ {
+                text : '保存',
+                iconCls:'icon-add',
+                handler : function() {
+                    $bt_form = $('#save_assign');
+                    $.messager.confirm('修改提示', '确定修改吗？', function (flag) {
+                        if(flag){
+                            $.ajax({
+                                url : "/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/saveAssignSure",
+                                data : $bt_form.toJson(),
+                                cache : false,
+                                dataType : 'JSON',
+                                success : function(r) {
+                                    if (r.code==200) {
+                                        sy.messagerShow({
+                                            msg : r.message,
+                                            title : '提示'
+                                        });
+                                        $assignPrize.datagrid("load");
+                                        show_dialog.dialog('close');
+                                        p.dialog('close');
+                                    }else {
+                                        sy.messagerShow({
+                                            msg : r.message,
+                                            title : '提示'
+                                        });
+                                    }
+                                }
+                            });
+                        }
+                    });
+                }
+            } ],
+            onLoad : function() {
+            }
+        });
+    }
+
+    /**
+    * 删除指定获奖人
+    * */
+    context.deleteAssignUser = function(){
+        var act = "";
+        var checked = $assignPrize.datagrid('getChecked');
+        if (checked.length == 0) {
+            $.messager.alert('操作提示', '请至少选择一行！', 'warning');
+            return false;
+        } else {
+            $.each(checked, function (index) {
+                act=checked[index].id;
+            });
+        }
+        $.messager.confirm('删除提示', '确定删除吗？', function (flag) {
+            if(flag){
+                $.ajax({
+                    url : "/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/deleteUserSure",
+                    data : { 'id':act },
+                    cache : false,
+                    dataType : 'JSON',
+                    success : function(r) {
+                        if (r.code==200) {
+                            sy.messagerShow({
+                                msg : r.message,
+                                title : '提示'
+                            });
+                            $assignPrize.datagrid("load");
+                        }else {
+                            sy.messagerShow({
+                                msg : r.message,
+                                title : '提示'
+                            });
+                        }
+                    }
+                });
+            }
+
+        });
+    }
+
+    /**
+    * 编辑指定获奖信息
+    * */
+    function updateAssignUser(){
+        var id = $(obj).attr('data-id');
+
+    }
+
+    /**
+    * 编辑奖品信息
+    * */
+    function updateDial(obj){
+        var id = $(obj).attr('data-id');
+        var p = sy.dialog({
+            title : '确认修改',
+            href :  '/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/updateDial?id='+id,
+            width : 450,
+            height : 350,
+            buttons : [ {
+                text : '保存',
+                iconCls:'icon-add',
+                handler : function() {
+                    $bt_form = $('#updateDial');
+                    $.ajax({
+                        url : "/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/verify",
+                        data : $bt_form.toJson(),
+                        cache : false,
+                        dataType : 'JSON',
+                        success : function(r) {
+                            if (r.code==400) {
+                                sy.messagerShow({
+                                    msg : r.message,
+                                    title : '提示'
+                                });
+                            }else {
+                            $.messager.confirm('修改提示', '确定修改吗？', function (flag) {
+                                if(flag){
+                                    $.ajax({
+                                        url : "/my/ThinkPHPkj/ThinkPHPkj/index.php/Admin/Finance/updateDialSure",
+                                        data : $bt_form.toJson(),
+                                        cache : false,
+                                        dataType : 'JSON',
+                                        success : function(r) {
+                                            if (r.code==200) {
+                                                sy.messagerShow({
+                                                    msg : r.message,
+                                                    title : '提示'
+                                                });
+                                                $dialList.datagrid("load");
+                                                p.dialog('close');
+                                            }else {
+                                                sy.messagerShow({
+                                                    msg : r.message,
+                                                    title : '提示'
+                                                });
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+                            }
+                        }
+                    });
+
+                }
+            } ],
+            onLoad : function() {
+            }
+        });
+    }
+
+    /**
+    * 查询
+    * */
+
+    function p_search() {
+        var search_form = $('#list_search');
+        if (search_form.form('validate')) {
+            $dialList.datagrid('load', search_form.toJson());
+        }
+    }
+    /**
+     * 取消
+     * */
+    function cleanSearch(){
+        $dialList.datagrid('load', {});
+        $dialList.datagrid('clearChecked');
+        $dialList.datagrid('clearSelections');
+        $('#list_search input').val('');
+    }
+</script>

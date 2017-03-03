@@ -1,0 +1,8 @@
+[ 2016-07-05T18:41:17+08:00 ] ::1 /thinkphp/admin
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_buser` INNER JOIN think_role ON think_role.roleid=think_buser.roleid and think_buser.id=  LIMIT 1  
+
+[ 2016-07-05T18:47:04+08:00 ] ::1 /thinkphp/index.php/Admin/Index/left
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_role` WHERE ( roleid= ) LIMIT 1  
+

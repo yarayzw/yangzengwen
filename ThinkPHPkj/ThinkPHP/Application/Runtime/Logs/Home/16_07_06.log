@@ -1,0 +1,1181 @@
+[ 2016-07-06T01:36:41+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-06T01:37:00+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T01:37:06+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:37:11+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930852'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:37:21+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930850'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:05+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:06+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-06T01:38:09+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930941'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T01:38:13+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:45+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:46+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:51+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930942'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:38:57+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930951'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:39:35+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '15574532587'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:39:54+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '15574532587'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:40:23+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:40:24+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:40:47+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T01:40:48+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:43:03+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T01:43:04+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-06T09:29:25+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18236197061'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-07-06T09:29:32+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Index/registerAction?mobile=18236197061&mcode=3553
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-06T09:29:57+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Index/registerAction?code=3553&mobile1=18236197061&mcode1=3553&pwd=wobuzhidao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`,`addtime`) VALUES ('18236197061','wobuzhidao','2016-07-06 09:29:57') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-06T09:33:08+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:33:11+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:33:17+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:33:23+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `friendid`='59@' WHERE `id` = 78 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:33:41+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sendmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_message` (`sendername`,`recipientid`,`senderid`,`content`,`addtime`) VALUES ('杨增文','59','78','你是二笔','2016-07-06 09:33:40') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:33:47+08:00 ] ::1 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0050s ]
+SQL: UPDATE `think_message` SET `status`='2' WHERE `recipientid` = 59 [ RunTime:0.0010s ]
+
+[ 2016-07-06T09:33:49+08:00 ] ::1 /thinkphp/index.php/Home/Home/homepage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=59 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `num`='0' WHERE ( id=59 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_vip` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_vip` WHERE `uid` = 59 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `status`,`headphoto` FROM `think_user` WHERE ( id=59 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE ( id=59 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`headphoto`,`name` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_mood` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_mood` WHERE ( uid=60 )  [ RunTime:0.0010s ]
+SQL: SELECT `visitid` FROM `think_user` WHERE ( id=59 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0040s ]
+SQL: SELECT `status`,`senderid`,`content`,`sendername`,`addtime` FROM `think_message` WHERE ( recipientid=59 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msgstatus D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `think_newcategory` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_news`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_album` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `think_album` WHERE ( uid=59 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_advert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_advert` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr081 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 345 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined variable: arr11 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 382 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:34:13+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/explevel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `time`='1467768853',`exp`='1',`num`='1',`judge`='2' WHERE ( id=78 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:35:22+08:00 ] ::1 /thinkphp/index.php/Home/Home/explevel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=59 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `time`='1467768922',`exp`='4',`num`='1',`judge`='2' WHERE ( id=59 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:36:58+08:00 ] ::1 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:37:29+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-06T09:37:29+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:37:31+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:37:31+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:37:32+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:37:36+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-06T09:37:43+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-06T09:38:21+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:38:34+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-06T09:38:39+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:41:42+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:41:52+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18339976195'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:42:00+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Index/registerAction?mobile=18339976195&mcode=4220
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:42:19+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Index/registerAction?code=4220&mobile1=18339976195&mcode1=4220&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`,`addtime`) VALUES ('18339976195','123456','2016-07-06 09:42:19') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:45:18+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/explevel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `think_user` SET `time`='1467769518',`exp`='1',`num`='1',`judge`='2' WHERE ( id=79 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:45:19+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:45:30+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `think_user` SET `friendid`='59@79@' WHERE `id` = 78 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:45:47+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sendmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_message` (`sendername`,`recipientid`,`senderid`,`content`,`addtime`) VALUES ('原琳','79','78','你是个大二比','2016-07-06 09:45:46') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:48:00+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0040s ]
+SQL: UPDATE `think_message` SET `status`='2' WHERE `recipientid` = 79 [ RunTime:0.0000s ]
+
+[ 2016-07-06T09:48:01+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/homepage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_vip` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_vip` WHERE `uid` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `status`,`headphoto` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_mood` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: fmood D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 44 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: fmod D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 54 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 54 行.
+NOTIC: [2] array_multisort() [<a href='function.array-multisort'>function.array-multisort</a>]: Argument #1 is expected to be an array or a sort flag D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: brr D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 63 行.
+SQL: SELECT `visitid` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0050s ]
+SQL: SELECT `status`,`senderid`,`content`,`sendername`,`addtime` FROM `think_message` WHERE ( recipientid=79 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: msgstatus D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `think_newcategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_news`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_album` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `think_album` WHERE ( uid=79 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_advert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_advert` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr081 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 345 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined variable: arr11 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 382 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:48:40+08:00 ] 172.16.5.136 /thinkphp/index.php/Home/Home/sendmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0030s ]
+SQL: INSERT INTO `think_message` (`sendername`,`recipientid`,`senderid`,`content`,`addtime`) VALUES ('原琳','79','78','你滚出去','2016-07-06 09:48:39') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:48:41+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0050s ]
+SQL: UPDATE `think_message` SET `status`='2' WHERE `recipientid` = 79 [ RunTime:0.0010s ]
+
+[ 2016-07-06T09:48:42+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/homepage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_vip` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_vip` WHERE `uid` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `status`,`headphoto` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_mood` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: fmood D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 44 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: fmod D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 54 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 54 行.
+NOTIC: [2] array_multisort() [<a href='function.array-multisort'>function.array-multisort</a>]: Argument #1 is expected to be an array or a sort flag D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: brr D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 63 行.
+SQL: SELECT `visitid` FROM `think_user` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`headphoto` FROM `think_user` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_message` [ RunTime:0.0050s ]
+SQL: SELECT `status`,`senderid`,`content`,`sendername`,`addtime` FROM `think_message` WHERE ( recipientid=79 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: msgstatus D:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `think_newcategory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_newcategory` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_news`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_album` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `think_album` WHERE ( uid=79 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_advert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_advert` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr081 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 345 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined index: addtime D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 374 行.
+NOTIC: [8] Undefined variable: arr11 D:\WWW\thinkphp\Application\Runtime\Cache\Home\0e8c4936e5fb949dee994f6c001596ea.php 第 382 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:48:49+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:49:02+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/readmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:49:16+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sendsession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T09:49:20+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sendsession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:49:26+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sendsession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:49:30+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sendsession
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-06T09:50:18+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `think_user` SET `friendid`='59@' WHERE `id` = 79 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:50:25+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:50:26+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:50:27+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T09:50:28+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:50:29+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:50:30+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:50:30+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:53:44+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T09:53:44+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:53:58+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-06T09:53:58+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T09:53:58+08:00 ] 172.16.5.100 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:07:25+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18236197061'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T10:09:15+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18236197061&mcode=1474
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:09:43+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=1474&mobile1=18236197061&mcode1=1474&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`,`addtime`) VALUES ('18236197061','123456','2016-07-06 10:09:43') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:10:20+08:00 ] ::1 /thinkphp/index.php/Home/Home/explevel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=80 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `time`='1467771020',`exp`='1',`num`='1',`judge`='2' WHERE ( id=80 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:34:06+08:00 ] 172.16.5.194 /thinkphp/index.php/Home/Home/explevel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `time`='1467772446',`exp`='1',`num`='1',`judge`='2' WHERE ( id=64 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:34:58+08:00 ] 172.16.5.194 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `think_user` SET `friendid`='62@' WHERE `id` = 64 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T10:35:00+08:00 ] 172.16.5.194 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T10:37:25+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T16:25:13+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T16:52:12+08:00 ] ::1 /thinkphp/index.php/Home/Home/uploadify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp E:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 226 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T16:54:55+08:00 ] ::1 /thinkphp/index.php/Home/Home/uploadify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp E:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T16:54:56+08:00 ] ::1 /thinkphp/index.php/Home/Home/uploadify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: timestamp E:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T16:54:58+08:00 ] ::1 /thinkphp/index.php/Home/Home/uploadify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp E:\WWW\thinkphp\Application\Home\Controller\HomeController.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T17:45:23+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T17:57:10+08:00 ] ::1 /thinkphp/index.php/Home/Home/search
+ERR: 1054:Unknown column 'minpath' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`pid`,`path`,`minpath` FROM `think_photo` WHERE `pid` = 48 
+
+[ 2016-07-06T18:47:41+08:00 ] ::1 /thinkphp/index.php/Home/Home/homepage.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`headphoto` FROM `think_user` WHERE ( id= ) LIMIT 1  
+
+[ 2016-07-06T18:48:19+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T18:48:22+08:00 ] ::1 /thinkphp/index.php/Home/Home/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT `friendid` FROM `think_user` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `friendid`='59@' WHERE `id` = 61 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T19:16:02+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T19:16:04+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_user` WHERE `tel` = '18695930940'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T19:16:09+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?mobile=18695930940&mcode=6290
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T19:16:21+08:00 ] ::1 /thinkphp/index.php/Home/Index/registerAction?code=6290&mobile1=18695930940&mcode1=6290&pwd=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `think_user` (`tel`,`password`,`addtime`) VALUES ('18695930940','123456','2016-07-06 19:16:21') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:06:43+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030002s ]
+
+[ 2016-07-06T20:07:00+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:07:10+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:10:36+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:10:45+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:10:49+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:12:13+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T20:12:16+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:12:17+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T20:13:48+08:00 ] ::1 /thinkphp/index.php/Home/Index/validate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:14:52+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:16:47+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:17:00+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:17:58+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:18:11+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:21:08+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T20:22:06+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify?phone=18695930940
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-06T20:23:10+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-06T20:29:22+08:00 ] ::1 /thinkphp/index.php/Home/Index/valify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-06T21:29:01+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T21:35:16+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-06T21:35:16+08:00 ] ::1 /thinkphp/index.php/Home/Home/sessionfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
